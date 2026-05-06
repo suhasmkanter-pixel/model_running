@@ -1,0 +1,65 @@
+# =========================
+# NEXT.JS / NODE
+# =========================
+node_modules/
+.next/
+out/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env files
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =========================
+# ML MODEL FILES
+# =========================
+*.pkl
+*.joblib
+*.h5
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE FILES
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# TEST / CACHE
+# =========================
+.pytest_cache/
+.cache/
+
+# =========================
+# BUILD FILES
+# =========================
+build/
+coverage/
